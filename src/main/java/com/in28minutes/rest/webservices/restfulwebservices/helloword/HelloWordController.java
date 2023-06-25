@@ -19,7 +19,7 @@ public class HelloWordController {
 	
 	@GetMapping("/hello_word_bean")
 	public Hellowordbean hellowordbean() {
-		return new Hellowordbean("hello_word_bean");
+		return new Hellowordbean("hello_word_bean_gitUpdated");
 	}
 
 }
